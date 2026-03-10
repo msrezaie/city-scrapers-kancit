@@ -114,7 +114,7 @@ class KancitMissouricityMixin(LegistarSpider, metaclass=KancitMissouricityMixinM
                     self._scraped_urls.add(ical_url)
                 events.append(dict(data))
             except Exception:
-                pass
+                self.logger.exception(f"Failed to parse row: {row.get()}")
 
         return events
 
