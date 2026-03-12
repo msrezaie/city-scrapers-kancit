@@ -821,12 +821,12 @@
         },
         "scrapy": {
             "hashes": [
-                "sha256:b2a4e61802e0a5518bc8293058adedbb6b0d51c08c125d1322b1af7c7cbca4c1",
-                "sha256:e3a3c7969b7e692864f7de05e10ecb2d1bc813ed571361dc71142e5368ff92dc"
+                "sha256:4be353d6abbb942a9f7e7614ca8b5f3d9037381176ac8d8859c8cac676e74fa0",
+                "sha256:dfbd565384fc3fffeba121f5a3a2d0899ac1f756d41432ca0879933fbfb3401d"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.10'",
-            "version": "==2.14.1"
+            "markers": "python_version >= '3.8'",
+            "version": "==2.11.2"
         },
         "scrapy-sentry-errors": {
             "hashes": [
